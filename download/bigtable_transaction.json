@@ -1,0 +1,34 @@
+{
+    "seq" : "00001", 
+    "pid" : "1111111111111", 
+    "inscl" : "UCS", 
+    "dateopd" : "2523-01-10", 
+    "total" : 20000, 
+    "optype" : 1, 
+    "age" : 30, 
+    "height": 165, 
+    "count_nvisits_by_date": 3, 
+    "hlevel" : "36", 
+    "c_diagnosis" : [
+        {"datedx": "2023-01-10", "diag": "Z510", "dxtype": 1}, 
+        {"datedx": "2023-01-10", "diag": "A001", "dxtype": 2}, 
+        {"datedx": "2023-01-21", "diag": "Z510", "dxtype": 1}
+    ], 
+    "c_total_group_cs_08" : [
+        {"fscodegroup": "CT & CTA", "fee_schedule_code": "44001", "amount": 4500 }, 
+        {"fscodegroup": "CT & CTA", "fee_schedule_code": "44002", "amount": 6900 }, 
+        {"fscodegroup": "MRI, MRA, MRV, MRCP", "fee_schedule_code": "45151", "amount": 6000}
+    ], 
+    "c_total_group_cs_05": [
+        {"itemcode": "222222", "qty": 3, "amount": 1200}, 
+        {"itemcode": "444444", "qty": 1, "amount": 1500}, 
+        {"itemcode": "777777", "qty": 1, "amount": 2100}
+    ], 
+    "c_total_group_cs_13": [
+        {"itemcode": "67201", "qty": 3, "amount": 1200}, 
+        {"itemcode": "67202", "qty": 1, "amount": 1500}, 
+        {"itemcode": "67206", "qty": 1, "amount": 2100}
+    ]
+
+    
+}
