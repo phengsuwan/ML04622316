@@ -1,0 +1,32 @@
+[
+    {
+      "itemcode": "111111", 
+      "max_qty": 2, 
+      "amount": 4000
+    }, 
+    {
+      "itemcode": "222222", 
+      "max_qty": 2, 
+      "amount": 1000
+    }, 
+    {
+      "itemcode": "333333", 
+      "max_qty": 1, 
+      "amount": 1200
+    }, 
+    {
+      "itemcode": "444444", 
+      "max_qty": 1, 
+      "amount": 2000
+    }, 
+    {
+      "itemcode": "555555", 
+      "max_qty": 1, 
+      "amount": 3000
+    }, 
+    {
+      "itemcode": "666666", 
+      "max_qty": 1, 
+      "amount": 3000
+    }
+  ]

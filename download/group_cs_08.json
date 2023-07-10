@@ -1,0 +1,22 @@
+[
+  {
+    "fscodegroup": "CT", 
+    "fee_schedule_code": "44001", 
+    "amount": 4500
+  }, 
+  {
+    "fscodegroup": "CT & CTA", 
+    "fee_schedule_code": "44002", 
+    "amount": 6900
+  },
+  {
+    "fscodegroup": "MRI, MRA, MRV, MRCP", 
+    "fee_schedule_code": "45151", 
+    "amount": 6000
+  },  
+  {
+    "fscodegroup": "MRI", 
+    "fee_schedule_code": "45151", 
+    "amount": 6000
+  }  
+]
