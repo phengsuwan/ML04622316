@@ -25,3 +25,8 @@ def load_bigtable_fields(bt):
     btf = [f"{k} = '{bt[k]}'" if type(bt[k]) is str else f"{k} = {bt[k]}" for k in bt.keys()]
     return btf
 
+def load_bigtable_fields_v2(bt): 
+  bt_json = read_tx(bt)
+  bt = convert(bt_json)
+  btf = [f"{k} = '{bt[k]}'" if type(bt[k]) is str else f"{k} = {bt[k]}" for k in bt.keys()]
+  return btf
